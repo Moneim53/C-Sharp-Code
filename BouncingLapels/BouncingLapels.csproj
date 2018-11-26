@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0ADFD96-838D-4E8C-9E4D-F885D363CCE2}</ProjectGuid>
+    <ProjectGuid>{263A73C7-BDF9-49FD-81ED-BD112136F156}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Flashy_</RootNamespace>
-    <AssemblyName>Flashy!</AssemblyName>
+    <RootNamespace>BouncingLapels</RootNamespace>
+    <AssemblyName>BouncingLapels</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,6 +51,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="labelBouncing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
