@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ElephantSwap.Properties
+namespace Flashy_.Properties
 {
 
 
